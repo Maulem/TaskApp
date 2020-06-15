@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<title>Tasks</title>
+	<title>Teams</title>
 	<link href='assets/css/reset.css' rel='stylesheet'>
 	<link href='assets/css/style.css' rel='stylesheet'>
 	<link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
@@ -14,20 +14,40 @@
 <body>
 	<div class="body">
 		<header  class="header">
-			<p class="headertitle">Seus times:</p>
+			<p class="headertitle">Times que você participa:</p>
 		</header>
 		<main class="main">
-			
+			<div class="item" onclick="location.href='team-assembled.html';">
+				<p class="numteam">N</p>
+				<div>
+					<p class="namegroup">Grupo N (novo)</p>
+					<p class="discgroup">As tarefas ainda não foram distribuidas.</p>
+				</div>
+			</div>
+			<div class="item" onclick="location.href='team-error.html';">
+				<p class="numteam">C</p>
+				<div>
+					<p class="namegroup">Grupo do Condominio Floripa</p>
+					<p class="discgroup">Você não tem permissão de distribuir tarefas.</p>
+				</div>
+			</div>
+			<div class="item" onclick="location.href='team-error.html';">
+				<p class="numteam">B</p>
+				<div>
+					<p class="namegroup">Grupo B da sua empresa</p>
+					<p class="discgroup">Você não tem permissão de distribuir tarefas.</p>
+				</div>
+			</div>
 		</main>
 		<footer class="footer">
-			<div class="linktasks">
-				<a href="tasks.html" class="text">Tarefas</a>
+			<div class="linktasks" onclick="location.href='tasks.html';">
+				<p class="text">Tarefas</p>
 			</div>
-			<div class="linkchat">
-				<a href="chat.html" class="text">Chat</a>
+			<div class="linkchat" onclick="location.href='chat.html';">
+				<p class="text">Chat</p>
 			</div>
-			<div class="linkteams">
-				<a href="team.html" class="text">Times</a>
+			<div class="linkteams" onclick="location.href='team.html';">
+				<p class="text">Times</p>
 			</div>
 		</footer>
 	</div>

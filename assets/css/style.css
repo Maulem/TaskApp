@@ -1,13 +1,13 @@
 .body {
 	background-color: black;
-	font-family:'Spartan', sans-serif;
+	
 	display: flex;
 	flex-direction: column;
 	font-size: 7rem;
 }
 
 .header {
-	background-color: grey;
+	background-color: #278fe3;
 	width: 100%;
 	height: 10rem;
 }
@@ -20,12 +20,83 @@
 	margin-top: 3rem;
 	margin-bottom: 3rem;
 	font-size: 5rem;
+	color: white;
 }
 
 .main {
-	background-color: blue;
+	background-color: grey;
 	width: 100%;
-	height: 92rem;
+	height: 90.5rem;
+}
+
+.tasks {
+	font-size: 2.6rem;
+	margin-top: 5rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	border-style: solid;
+	border-width: 0.2rem;
+	padding-bottom: 1rem;
+	border-color: white;
+	border-radius: 5000rem;
+}
+
+.namegroup {
+	font-size: 3rem;
+	margin-top: 4rem;
+	margin-left: 3rem;
+	margin-right: 2rem;
+
+}
+
+.discgroup {
+	font-size: 2rem;
+	color: grey;
+	margin-top: 0.5rem;
+	margin-left: 3rem;
+	margin-right: 2rem;
+}
+
+.num {
+	font-size: 3rem;
+	margin-top: 3rem;
+	margin-left: 2rem;
+	border-style: solid;
+	border-width: 0.2rem;
+	padding-bottom: 2rem;
+	border-color: #2279bf;
+	border-radius: 5000rem;
+	padding: 2rem;
+	color: white;
+	background-color: #2279bf;
+}
+
+.numteam {
+	font-size: 3rem;
+	margin-top: 3rem;
+	margin-left: 2rem;
+	border-style: solid;
+	border-width: 0.2rem;
+	border-color: #2279bf;
+	border-radius: 5000rem;
+	padding: 2.2rem;
+	padding-right: 2.6rem;
+	padding-left: 2.6rem;
+	width: 2rem;
+	color: white;
+	background-color: #2279bf;
+	
+}
+
+.item {
+	display: flex;
+	flex-direction: row;
+	border-style: solid;
+	border-width: 0.2rem;
+	padding-bottom: 2rem;
+	border-color: grey;
+	background-color: white;
+
 }
 
 .footer {
@@ -37,7 +108,7 @@
 }
 
 .linktasks {
-	background-color: grey;
+	background-color: #2E7BFF;
 	width: 33.3333%;
 	text-align: center;
 	height: 4rem;
@@ -45,11 +116,12 @@
 	border-style: solid;
 	border-width: 0.2rem;
 	padding-bottom: 2rem;
-	border-color: black;
+	border-color: white;
+	border-radius: 1rem;
 }
 
 .linkchat {
-	background-color: grey;
+	background-color: #2E7BFF;
 	width: 33.3333%;
 	text-align: center;
 	height: 4rem;
@@ -57,11 +129,12 @@
 	border-style: solid;
 	border-width: 0.2rem;
 	padding-bottom: 2rem;
-	border-color: black;
+	border-color: white;
+	border-radius: 1rem;
 }
 
 .linkteams {
-	background-color: grey;
+	background-color: #2E7BFF;
 	width: 33.3333%;
 	text-align: center;
 	height: 4rem;
@@ -69,10 +142,35 @@
 	border-style: solid;
 	border-width: 0.2rem;
 	padding-bottom: 2rem;
-	border-color: black;
+	border-color: white;
+	border-radius: 1rem;
 }
 
 .text {
 	text-decoration: none;
-	color: black;
+	color: white;
 }
+
+.assembled {
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	background-color: white;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-top: 20rem;
+}
+
+.msgassembled {
+	font-size: 3rem;
+	margin-top: 6rem;
+	margin-bottom: 10rem;
+	align-self: center;
+}
+
+.imgassembled {
+	margin-top: 5rem;
+	width: 20rem;
+	align-self: center;
+}
+
