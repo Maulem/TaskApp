@@ -1,33 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<title>Tasks</title>
+	<title>Chat</title>
 	<link href='assets/css/reset.css' rel='stylesheet'>
 	<link href='assets/css/style.css' rel='stylesheet'>
 	<link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Spartan&display=swap" rel="stylesheet">
 	<meta charset="utf-8"/>
 	<meta name=”viewport” content=”width-device-width,initial-scale-1”>
-	<script src="assets/js/codes.js"></script>
-	<script src="assets/js/index.js"></script>
 </head>
 <body>
 	<div class="body">
 		<header  class="header">
-			<p class="headertitle">Conversas:</p>
+			<p class="headertitle">Suas conversas:</p>
 		</header>
 		<main class="main">
-			
+			<div class="item" onclick="location.href='chat-boss.html';">
+				<p class="numteam">A</p>
+				<div>
+					<p class="namegroup">Chefe Alberto</p>
+					<p class="discgroup">Clique para enviar uma mensagem.</p>
+				</div>
+			</div>
+			<div class="item" onclick="location.href='chat-others.html';">
+				<p class="numteam">K</p>
+				<div>
+					<p class="namegroup">Secretaria Karen</p>
+					<p class="discgroup">Clique para enviar uma mensagem.</p>
+				</div>
+			</div>
+			<div class="item" onclick="location.href='chat-others.html';">
+				<p class="numteam">C</p>
+				<div>
+					<p class="namegroup">Cliente Caue</p>
+					<p class="discgroup">Clique para enviar uma mensagem.</p>
+				</div>
+			</div>
+			<div class="item" onclick="location.href='chat-others.html';">
+				<p class="numteam">L</p>
+				<div>
+					<p class="namegroup">Lider de vendas Larissa</p>
+					<p class="discgroup">Clique para enviar uma mensagem.</p>
+				</div>
+			</div>
 		</main>
 		<footer class="footer">
-			<div class="linktasks">
-				<a href="tasks.html" class="text">Tarefas</a>
+			<div class="linktasks" onclick="location.href='tasks.html';">
+				<p class="text">Tarefas</p>
 			</div>
-			<div class="linkchat">
-				<a href="chat.html" class="text">Chat</a>
+			<div class="linkchat" onclick="location.href='chat.html';">
+				<p class="text">Chat</p>
 			</div>
-			<div class="linkteams">
-				<a href="team.html" class="text">Times</a>
+			<div class="linkteams" onclick="location.href='team.html';">
+				<p class="text">Times</p>
 			</div>
 		</footer>
 	</div>
