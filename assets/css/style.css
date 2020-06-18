@@ -1,6 +1,6 @@
 .body {
 	background-color: black;
-	
+	font-family: 'Source Serif Pro', serif;
 	display: flex;
 	flex-direction: column;
 	font-size: 7rem;
@@ -10,12 +10,23 @@
 	background-color: #278fe3;
 	width: 100%;
 	height: 10rem;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.header_special {
+	background-color: #278fe3;
+	width: 100%;
+	height: 10rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
 .headertitle {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	align-self: center;
 	flex-direction: row;
 	margin-top: 3rem;
 	margin-bottom: 3rem;
@@ -23,8 +34,67 @@
 	color: white;
 }
 
+.headertitle_team {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-self: center;
+	flex-direction: row;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	font-size: 5rem;
+	color: white;
+	margin-right: 35%;
+	flex-wrap: nowrap;
+}
+
+.headertitle_error {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-self: center;
+	flex-direction: row;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	font-size: 5rem;
+	color: white;
+	margin-right: 39.5%;
+	flex-wrap: nowrap;
+}
+
+.headertitle_boss {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-self: center;
+	flex-direction: row;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	font-size: 5rem;
+	color: white;
+	margin-right: 24%;
+	flex-wrap: nowrap;
+}
+
+.backbutton {
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+	font-size: 8rem;
+	color: white;
+	margin-left: 5%;
+	font-weight: bolder;
+	border-style: solid;
+	border-width: 0.2rem;
+	border-color: #278fe3;
+	width: 7rem;
+	height: 8.2rem;
+	border-radius: 5rem;
+	padding-left: 2rem;
+
+}
+
 .main {
-	background-color: grey;
+	background-color: #6e787a;
 	width: 100%;
 	height: 90.5rem;
 }
@@ -101,6 +171,7 @@
 
 .footer {
 	font-size: 4rem;
+	font-family: 'Open Sans', sans-serif;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -109,6 +180,19 @@
 
 .linktasks {
 	background-color: #2E7BFF;
+	width: 33.3333%;
+	text-align: center;
+	height: 4rem;
+	padding-top: 2rem;
+	border-style: solid;
+	border-width: 0.2rem;
+	padding-bottom: 2rem;
+	border-color: white;
+	border-radius: 1rem;
+}
+
+.linktasks_clicked {
+	background-color: #2155ad;
 	width: 33.3333%;
 	text-align: center;
 	height: 4rem;
@@ -133,8 +217,35 @@
 	border-radius: 1rem;
 }
 
+.linkchat_clicked {
+	background-color: #2155ad;
+	width: 33.3333%;
+	text-align: center;
+	height: 4rem;
+	padding-top: 2rem;
+	border-style: solid;
+	border-width: 0.2rem;
+	padding-bottom: 2rem;
+	border-color: white;
+	border-radius: 1rem;
+}
+
 .linkteams {
 	background-color: #2E7BFF;
+	width: 33.3333%;
+	text-align: center;
+	height: 4rem;
+	padding-top: 2rem;
+	border-style: solid;
+	border-width: 0.2rem;
+	padding-bottom: 2rem;
+	border-color: white;
+	border-radius: 1rem;
+}
+
+.linkteams_clicked {
+	background-color: #2155ad;
+	font-family: 'Open Sans', sans-serif;
 	width: 33.3333%;
 	text-align: center;
 	height: 4rem;
@@ -162,12 +273,13 @@
 }
 
 .msgassembled {
-	font-size: 3rem;
+	font-size: 2.5rem;
 	margin-top: 6rem;
 	margin-bottom: 10rem;
 	margin-left: 2rem;
 	margin-right: 2rem;
 	align-self: center;
+	text-align: center;
 }
 
 .imgassembled {
@@ -176,3 +288,15 @@
 	align-self: center;
 }
 
+.htmlf {
+    background-color: #ffffff;
+}
+
+.bodyf {
+    font-family: sans-serif;
+    padding: 1rem;
+}
+
+iframe {
+    background-color: #ffffff;
+}
